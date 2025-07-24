@@ -154,8 +154,8 @@ const LudoStyles = `
     .piece {
         width: 5.5vw; 
         height: 5.5vw;
-        max-width: 32px; 
-        max-height: 32px;
+        max-width: 25px; 
+        max-height: 25px;
         border-radius: 50%;
         border: 2px solid rgba(0, 0, 0, 0.5);
         box-shadow: inset 0 -3px 4px rgba(0,0,0,0.3),
@@ -311,7 +311,7 @@ const LudoStyles = `
 // --- Configuration Constants ---
 const playerOrder = ['blue', 'red', 'green', 'yellow'];
 const playerNames = { blue: 'Player 1', red: 'Player 2', green: 'Player 3', yellow: 'Player 4' };
-const playerEmojis = { blue: '🔵', red: '🔴', green: '🟢', yellow: '🟡' };
+const playerEmojis = { blue: '', red: '', green: '', yellow: '' };
 
 const mainPathCoords = [
     [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [5, 6], [4, 6], [3, 6], [2, 6], [1, 6], [0, 6], [0, 7], [0, 8], [1, 8], [2, 8], [3, 8], [4, 8], [5, 8], [6, 9], [6, 10], [6, 11], [6, 12], [6, 13], [6, 14], [7, 14], [8, 14], [8, 13], [8, 12], [8, 11], [8, 10], [8, 9], [9, 8], [10, 8], [11, 8], [12, 8], [13, 8], [14, 8], [14, 7], [14, 6], [13, 6], [12, 6], [11, 6], [10, 6], [9, 6], [8, 5], [8, 4], [8, 3], [8, 2], [8, 1], [8, 0], [7, 0]
