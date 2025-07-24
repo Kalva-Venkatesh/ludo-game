@@ -188,13 +188,7 @@ const LudoStyles = `
         color: rgba(0, 0, 0, 0.5);
         z-index: 0;
     }
-    .arrow::after {
-        content: '➤';
-        position: absolute;
-        font-size: 2.5vw;
-        max-font-size: 18px;
-        color: rgba(0,0,0,0.4);
-    }
+    
     .arrow-up::after { transform: rotate(-90deg); }
     .arrow-down::after { transform: rotate(90deg); }
     .arrow-left::after { transform: rotate(180deg); }
